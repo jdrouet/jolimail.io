@@ -1,6 +1,7 @@
 import React from 'react';
 import AppBar from '@material-ui/core/AppBar';
 import Button from '@material-ui/core/Button';
+import Hidden from '@material-ui/core/Hidden';
 import { Button as GatsbyButton } from 'gatsby-theme-material-ui';
 import Toolbar from '@material-ui/core/Toolbar';
 import { makeStyles } from '@material-ui/core/styles';
@@ -32,9 +33,11 @@ const Header: React.FC<HeaderProps> = () => {
       <Toolbar className={classes.toolbar}>
         <img className={classes.logo} src={logoSrc} />
         <div className={classes.grow} />
-        <Button href="https://github.com/jdrouet/jolimail" target="_blank">
-          Documentation
-        </Button>
+        <Hidden xsDown>
+          <Button href="https://github.com/jdrouet/jolimail" target="_blank">
+            Documentation
+          </Button>
+        </Hidden>
         <GatsbyButton to="/demo">Demo</GatsbyButton>
       </Toolbar>
     </AppBar>
