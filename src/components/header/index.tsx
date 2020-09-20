@@ -32,7 +32,9 @@ const Header: React.FC<HeaderProps> = () => {
       <Toolbar className={classes.toolbar}>
         <img className={classes.logo} src={logoSrc} />
         <div className={classes.grow} />
-        <Button>Documentation</Button>
+        <Button href="https://github.com/jdrouet/jolimail" target="_blank">
+          Documentation
+        </Button>
         <GatsbyButton to="/demo">Demo</GatsbyButton>
       </Toolbar>
     </AppBar>

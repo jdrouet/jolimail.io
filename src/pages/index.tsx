@@ -110,6 +110,7 @@ const IndexPage: React.FC<PageProps> = () => {
               className={classes.button}
               color="primary"
               href="https://github.com/jdrouet/catapulte"
+              target="_blank"
               variant="contained"
             >
               Check it out on github
