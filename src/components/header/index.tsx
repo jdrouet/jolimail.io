@@ -31,7 +31,9 @@ const Header: React.FC<HeaderProps> = () => {
   return (
     <AppBar color="inherit" position="fixed">
       <Toolbar className={classes.toolbar}>
-        <img className={classes.logo} src={logoSrc} />
+        <GatsbyButton to="/">
+          <img className={classes.logo} alt="jolimail" src={logoSrc} />
+        </GatsbyButton>
         <div className={classes.grow} />
         <Hidden xsDown>
           <Button href="https://github.com/jdrouet/jolimail" target="_blank">
