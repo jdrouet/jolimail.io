@@ -33,7 +33,7 @@ const DemoPage: React.FC<PageProps> = () => {
             Show me what you got
           </Typography>
           <Typography align="center" variant="subtitle1">
-            Let's get a try...
+            Let's give it a try...
           </Typography>
         </Grid>
         <Grid className={classes.cell} item xs={12}>
