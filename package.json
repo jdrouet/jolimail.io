@@ -7,7 +7,7 @@
   "dependencies": {
     "@material-ui/core": "^4.11.3",
     "@material-ui/styles": "^4.11.3",
-    "@types/node": "^14.14.35",
+    "@types/node": "^15.12.1",
     "@types/react": "^17.0.3",
     "@types/react-dom": "^17.0.3",
     "gatsby": "^2.32.11",
